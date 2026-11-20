@@ -1,0 +1,14 @@
+PASS test/cajaNegra/cotizacion.cajaNegra.test.js
+PASS test/cajaBlanca/cotizacion.cajaBlanca.test.js
+---------------|---------|----------|---------|---------|-------------------
+File           | % Stmts | % Branch | % Funcs | % Lines | Uncovered Line #s 
+---------------|---------|----------|---------|---------|-------------------
+All files      |     100 |      100 |     100 |     100 |                   
+ cotizacion.js |     100 |      100 |     100 |     100 |                   
+---------------|---------|----------|---------|---------|-------------------
+
+Test Suites: 2 passed, 2 total
+Tests:       61 passed, 61 total
+Snapshots:   0 total
+Time:        0.487 s, estimated 1 s
+Ran all test suites matching /test\/cajaNegra|test\/cajaBlanca/i.

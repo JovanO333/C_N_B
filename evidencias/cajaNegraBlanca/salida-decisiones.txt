@@ -1,0 +1,24 @@
+PASS test/cajaBlanca/cotizacion.cajaBlanca.test.js
+  Caminos basicos de cotizarServicio
+    ✓ CB-01 camino base: urgente + cupon valido (1-3-5-6-8-9-10-11-12-13-14-16-18-19-20) (3 ms)
+    ✓ CB-02 servicio invalido (1-2-20) (11 ms)
+    ✓ CB-03 horas no enteras (1-3-4-20) (1 ms)
+    ✓ CB-04 horas menores a 1 (1-3-5-7-20) (1 ms)
+    ✓ CB-06 sin urgencia (1-3-5-6-8-9-11-12-13-14-16-18-19-20)
+    ✓ CB-07 sin cupon (1-3-5-6-8-9-10-11-12-19-20) (1 ms)
+    ✓ CB-08 cupon menor a 5% (1-3-5-6-8-9-10-11-12-13-15-20)
+    ✓ CB-10 cupon vencido (1-3-5-6-8-9-10-11-12-13-14-16-17-20)
+    ○ skipped CB-05 horas mayores a 8 (1-3-5-6-7-20)
+    ○ skipped CB-09 cupon mayor a 50% (1-3-5-6-8-9-10-11-12-13-14-15-20)
+
+---------------|---------|----------|---------|---------|-------------------
+File           | % Stmts | % Branch | % Funcs | % Lines | Uncovered Line #s 
+---------------|---------|----------|---------|---------|-------------------
+All files      |     100 |      100 |     100 |     100 |                   
+ cotizacion.js |     100 |      100 |     100 |     100 |                   
+---------------|---------|----------|---------|---------|-------------------
+Test Suites: 1 passed, 1 total
+Tests:       2 skipped, 8 passed, 10 total
+Snapshots:   0 total
+Time:        0.223 s, estimated 1 s
+Ran all test suites matching /test\/cajaBlanca/i with tests matching "CB-01|CB-02|CB-03|CB-04|CB-06|CB-07|CB-08|CB-10".
